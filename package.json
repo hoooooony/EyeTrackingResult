@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://hoooooony.github.io/eyetrackinData/",
+  "homepage": "https://hoooooony.github.io/EyetrackingResult/",
   "eslintConfig": {
     "extends": [
       "react-app",
