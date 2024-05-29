@@ -36,3 +36,150 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  padding: 10px; 
+}
+
+.file-input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.file-input {
+  padding: 3px;
+  background-color: #61dafb4e;
+  width: 50%;
+  border-radius: 4px;
+}
+.file-input-label {
+  padding: 5px;
+  background-color: rgb(82, 155, 219);
+  border-radius: 5px;
+  padding: 10px;
+  width: fit-content;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+}
+.eye-tracking-img {
+  width: 70%;
+  height: auto;
+}
+.file-input-condition {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  gap: 15px;
+  background-color: #fff; 
+  padding: 10px 20px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); 
+}
+.file-input-condition-text {
+    font-size: 15px;
+    color: #818080;
+}
+.file-input-condition input[type="file"] {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+.header {
+  padding: 4px;
+  border-bottom: solid 1px rgba(205, 205, 205, 0.6);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+
+.logo {
+  margin-left: 10px;
+  width: 20%;
+  border-radius: 4px;
+}
+.file-input-text {
+  margin-bottom: 5px;
+  width: 100%;
+  min-width: 350px;
+  font-size: 35px;
+  font-weight: 800;
+  color: #454545;
+  width:fit-content
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  color: #454545;
+  width: 100%;
+  width: 600px;
+}
+.value-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  gap: 15px;
+  background-color: #fff; 
+  padding: 10px 20px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.saccud-text {
+  font-size: 25px;
+  font-weight: 600;
+}
+.saccud-value {
+  margin-top: 2px;
+  font-weight: 700;
+}
+.canvas {
+  padding: 7px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  z-index: 2;
+  background-color: white;
+  position: relative;
+  margin-bottom: 20px;
+}
+.canvas span {
+  background-color: rgb(82, 155, 219);
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.title {
+  background-color: rgb(82, 155, 219);
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 25px;
+  font-weight: 600;
+  z-index: 1;
+  margin-left: 7px;
+}
+.click-count-text {
+  font-size: 25px;
+  font-weight: 600;
+}
+.saccud-container {
+  padding: 3px;
+}
+.click-count-container {
+  padding: 3px;
+  
+  border-radius: 4px;
+}
+.click-count-value {
+  margin-top: 2px;
+  font-weight: 600;
+}
